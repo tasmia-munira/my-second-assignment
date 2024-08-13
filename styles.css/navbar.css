@@ -1,19 +1,21 @@
 * {
-    margin: auto;
-    margin-top: 1rem;
     color: white;
     background-color: black;
-    /* background-repeat: no-repeat; */
   
 }
 
 p, button {
     margin: 0;
+    cursor: pointer;
+    background: none;
 }
+
 .container {
     display: flex;
     justify-content: center;
     vertical-align: middle;
+    background-color:none;
+    background: linear-gradient(0deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
 }
 
 
@@ -29,18 +31,20 @@ p, button {
     justify-content: space-between;
     align-items: center;
     vertical-align: middle;
-    
-
+    height: 50px;
+    padding: 1rem;
+    background: none;
+    background: linear-gradient(0deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
 }
+
 .nav-text {
     color: rgba(230, 83, 60, 1);
     font-size: 36px;
     font-style: italic;
-    text-align: left;
     font-weight: 800;
     line-height: 2rem;
-
-
+    margin-left: 80px;
+    background: none;
 }
 
 .nav-options {
@@ -48,11 +52,17 @@ p, button {
     justify-content: space-evenly;
     align-items: center;
     vertical-align:middle;
-    width: 430px;
-    height: 50px;
+    width: 425px;
+    height: 48px;
     gap: 3rem;
-    border: 1px solid rgba(84, 83, 83, 0.92);
+    border: 1px solid rgba(84, 83, 83, 0.4);
     border-radius: 2rem;
+    margin-right: 80px;
+    background: none;
+}
+
+.about{
+    padding-right: 18px;
 }
 
 .btn-primary {
@@ -63,6 +73,5 @@ p, button {
     gap: 10px;
     border-radius: 2rem;
     border: none;
-
 }
 
