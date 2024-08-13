@@ -6,8 +6,11 @@
 
 p, button {
     margin: 0;
-    cursor: pointer;
     background: none;
+}
+
+.nav-bar p {
+    cursor: pointer;
 }
 
 .container {

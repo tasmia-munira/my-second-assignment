@@ -1,0 +1,101 @@
+.habit-text {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+
+.habit-text h3 {
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 14px;
+}
+
+.habit-text p {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+}
+
+.habit-images{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 80px 100px 80px;
+}
+
+.img-parts {
+    text-align: center;
+    height:250px;
+    width:240px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    padding-bottom: 25px;
+}
+
+.img-text-1 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+.img-text-2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 16px;
+}
+
+.part-2{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    height: 365px;
+    width:90%;
+    border-radius: 18px;
+    margin-left: 100px;
+}
+
+.run-text {
+    width: 500px;
+    padding-left: 40px;
+    background: none;
+}
+
+.run-text h3{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    background: none;
+}
+
+.run-text p {
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 35px;
+    opacity:0.5;
+    background: none;
+}
+
+.run-text button{
+    width: 225px;
+    height: 55px;
+    font-size: 18px;
+    cursor: pointer;    
+}
+
+.run-img{
+    width: 360px;
+    height: 310px;
+    margin-top: 28px;
+    margin-right: 30px;
+    border-radius: 18px;
+}
