@@ -1,6 +1,61 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     .nav-options {
         display: none;
     }
+
+    .ham-burger {
+        display: block;
+    }
+    .ham-burger i {
+        font-size: 26px;
+    
+    }
+
+    .banner-container {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .banner-image img {
+        background: none;
+        position: relative;
+        left: 300px;
+    }
+    #badge-1 {
+        position: absolute;
+        right: -350px;
+        top: 700px;
+    }
+    #badge-2 {
+        position: absolute;
+        left: 250px;
+        top: 1000px;
+    }
+    
+    /* .habit-text {
+        text-align: center;
+    } */
+
+    .h-p-m {
+        display: inline-block;
+        margin-left: 250px;
+    }
+
+    .habit-images {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .part-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .run-text {
+        width: 200px;
+
+    }
+
     
 }

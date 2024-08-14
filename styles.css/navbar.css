@@ -78,3 +78,6 @@ p, button {
     border: none;
 }
 
+.ham-burger {
+    display: none;
+}
