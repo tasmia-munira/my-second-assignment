@@ -1,0 +1,51 @@
+.team-rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1050px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    margin-left:150px;
+    padding: 20px;
+}
+
+.members-card {
+    border-radius: 18px;
+    position: relative;
+    background: none;
+    width: 325px;
+    height: 270px;
+    padding-top: 1rem;
+    padding-left: 0.9rem;
+}
+
+
+.members-card img {
+    position: relative;
+    width: 325px;
+    height: 270px;
+    filter: brightness(70%);
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    background: none;
+    margin-left: 20px;
+}
+
+
+.member-name {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    background: none;
+}
+
+.trainer {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
