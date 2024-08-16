@@ -1,4 +1,8 @@
 @media screen and (max-width: 600px) {
+    .nav-bar {
+        width: 750px;
+    }
+    
     .nav-options {
         display: none;
     }
@@ -19,11 +23,12 @@
     .banner-image img {
         background: none;
         position: relative;
-        left: 300px;
+        left: 250px;
+        margin-top: 30px;
     }
     #badge-1 {
         position: absolute;
-        right: -350px;
+        right: -250px;
         top: 700px;
     }
     #badge-2 {
@@ -35,13 +40,15 @@
     
     .h-p-m {
         display: inline-block;
-        margin-left: 250px;
+        margin-left: 150px;
+        width: 500px;
     }
 
     .habit-images {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 40px;
+        margin-left: 50px;
     }
 
     .part-2 {
@@ -97,6 +104,7 @@
 
     .BMI-content {
         display: inline-block;
+        height: 800px;
     }
 
     .BMI-title > .habit-text {
@@ -106,6 +114,7 @@
     }
     .uni-section {
         width: fit-content;
+        margin-left: 0;
     }
     .result {
         margin-right: 100px;
@@ -129,7 +138,7 @@
     }
     .footer-main-div {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-rows: 0.25fr 0.75fr;
         height: 1000px;
     }
     
@@ -140,6 +149,10 @@
     .footer-text-2 {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .get-help {
+        margin-bottom: 20px;
     }
 
 }

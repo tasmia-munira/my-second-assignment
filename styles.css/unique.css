@@ -2,7 +2,6 @@ h3 {
     margin: 0;
 }
 
-
 .uni-section {
     height: 810px;
     margin: 100px 150px 0px 100px;
@@ -41,10 +40,6 @@ h3 {
     justify-content: space-between;
 }
 
-/* .questions > h3 {
-    padding: 50px 0px 50px 30px;
-    font-size: 2rem;
-} */
 
 .questions {
     background: none;
